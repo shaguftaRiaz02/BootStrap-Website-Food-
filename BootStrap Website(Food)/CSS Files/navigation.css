@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+}
+.nav{
+    background: darkcyan;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover,
+.nav-link.active{
+    background: sandybrown;
+    color: white;
+}

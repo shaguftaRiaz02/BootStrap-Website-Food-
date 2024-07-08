@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="../CSS Files/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS Files/form.css">
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="text-center">Form in Bootstrap</h1>
+      <div class="row">
+        <!-- <div class="col-2"></div> -->
+        <div class="col-5">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="">Name</label>
+            <input type="text" name="" id="" class="form-control" />
+          </div>
+          <!-- Email -->
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" name="" id="" class="form-control" />
+            <small class="form-text text-danger"
+              >i.e. example123@gmail.com</small
+            >
+          </div>
+          <!-- Password -->
+          <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" name="" id="" class="form-control" />
+            <small class="form-text text-danger"
+              >Your Password must be atleast 8 characters long and have
+              uppercase & lowercase letters and characters like %,&,@ etc</small
+            >
+          </div>
+          <!-- Select Country -->
+          <div class="form-group">
+            <label for="">Country</label>
+            <select name="" id="" class="form-control">
+              <option value="">Choose Country</option>
+              <option value="">Pakistan</option>
+              <option value="">India</option>
+              <option value="">Dubai</option>
+              <option value="">Malaysia</option>
+            </select>
+          </div>
+          <!-- Message -->
+          <div class="form-group">
+            <label for="">Message</label> <br />
+            <textarea
+              name=""
+              id=""
+              cols="45"
+              rows="7"
+              placeholder="Enter Your Message Here....."
+            ></textarea>
+          </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+            <!-- Upload -->
+          <div class="form-group">
+            <label for="">Upload File</label><br>
+            <input type="file" name="" id="" class="form-control-file text-primary" />
+          </div>
+          <!-- Range -->
+          <div class="form-group py-5">
+            <label for="">Price Range</label>
+            <input type="range" name="" id="">
+        </div>
+        <!-- Hobbies -->
+        <div class="form-group py-1">
+            <label for="">Hobbies</label>
+            <div class="form-check">
+                <input type="checkbox" name="" id="music" class="form-control-input">
+                <label for="music">Music</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="" id="dance" class="form-control-input">
+                <label for="dance">Dance</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="" id="Eating" class="form-control-input">
+                <label for="Eating">Eating</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="" id="Sleeping" class="form-control-input">
+                <label for="Sleeping">Sleeping</label>
+            </div>
+        </div>
+<!-- Radio -->
+<div class="form-group py-4">
+    <label for="">Are You Agree With Terms & Conditions?</label>
+    <div class="form-check">
+        <input type="radio" name="terms" id="agree">
+        <label for="agree">Agree</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" name="terms" id="disagree">
+        <label for="disagree">Not Agree</label>
+    </div>
+</div>
+<!-- Submit -->
+<button type="button" class="btn btn-primary mx-auto">Submit</button>
+
+        </div>
+        
+        <!-- <div class="col-2"></div> -->
+      </div>
+    </div>
+  </body>
+</html>
